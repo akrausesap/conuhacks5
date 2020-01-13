@@ -1,0 +1,104 @@
+
+# ================================================
+
+# All omitted code points have Emoji_Presentation=No 
+# @missing: 0000..10FFFF  ; Emoji_Presentation ; No
+
+2614..2615    ; Emoji_Presentation   #  4.0  [2] (☔..☕)    umbrella with rain drops..hot beverage
+2693          ; Emoji_Presentation   #  4.1  [1] (⚓)       anchor
+26A1          ; Emoji_Presentation   #  4.0  [1] (⚡)       high voltage
+26AA..26AB    ; Emoji_Presentation   #  4.1  [2] (⚪..⚫)    white circle..black circle
+26BD..26BE    ; Emoji_Presentation   #  5.2  [2] (⚽..⚾)    soccer ball..baseball
+26C4..26C5    ; Emoji_Presentation   #  5.2  [2] (⛄..⛅)    snowman without snow..sun behind cloud
+26CE          ; Emoji_Presentation   #  6.0  [1] (⛎)       Ophiuchus
+26D4          ; Emoji_Presentation   #  5.2  [1] (⛔)       no entry
+26EA          ; Emoji_Presentation   #  5.2  [1] (⛪)       church
+26F2..26F3    ; Emoji_Presentation   #  5.2  [2] (⛲..⛳)    fountain..flag in hole
+26F5          ; Emoji_Presentation   #  5.2  [1] (⛵)       sailboat
+26FA          ; Emoji_Presentation   #  5.2  [1] (⛺)       tent
+26FD          ; Emoji_Presentation   #  5.2  [1] (⛽)       fuel pump
+2705          ; Emoji_Presentation   #  6.0  [1] (✅)       white heavy check mark
+2728          ; Emoji_Presentation   #  6.0  [1] (✨)       sparkles
+27B0          ; Emoji_Presentation   #  6.0  [1] (➰)       curly loop
+27BF          ; Emoji_Presentation   #  6.0  [1] (➿)       double curly loop
+2B50          ; Emoji_Presentation   #  5.1  [1] (⭐)       white medium star
+1F300..1F320  ; Emoji_Presentation   #  6.0 [33] (🌀..🌠)    cyclone..shooting star
+1F32D..1F32F  ; Emoji_Presentation   #  8.0  [3] (🌭..🌯)    hot dog..burrito
+1F330..1F335  ; Emoji_Presentation   #  6.0  [6] (🌰..🌵)    chestnut..cactus
+1F337..1F37C  ; Emoji_Presentation   #  6.0 [70] (🌷..🍼)    tulip..baby bottle
+1F37E..1F37F  ; Emoji_Presentation   #  8.0  [2] (🍾..🍿)    bottle with popping cork..popcorn
+1F380..1F393  ; Emoji_Presentation   #  6.0 [20] (🎀..🎓)    ribbon..graduation cap
+1F3A0..1F3C4  ; Emoji_Presentation   #  6.0 [37] (🎠..🏄)    carousel horse..person surfing
+1F3C5         ; Emoji_Presentation   #  7.0  [1] (🏅)       sports medal
+1F3C6..1F3CA  ; Emoji_Presentation   #  6.0  [5] (🏆..🏊)    trophy..person swimming
+1F3CF..1F3D3  ; Emoji_Presentation   #  8.0  [5] (🏏..🏓)    cricket game..ping pong
+1F3E0..1F3F0  ; Emoji_Presentation   #  6.0 [17] (🏠..🏰)    house..castle
+1F3F4         ; Emoji_Presentation   #  7.0  [1] (🏴)       black flag
+1F3F8..1F3FF  ; Emoji_Presentation   #  8.0  [8] (🏸..🏿)    badminton..dark skin tone
+1F400..1F43E  ; Emoji_Presentation   #  6.0 [63] (🐀..🐾)    rat..paw prints
+1F440         ; Emoji_Presentation   #  6.0  [1] (👀)       eyes
+1F442..1F4F7  ; Emoji_Presentation   #  6.0[182] (👂..📷)    ear..camera
+1F4F8         ; Emoji_Presentation   #  7.0  [1] (📸)       camera with flash
+1F4F9..1F4FC  ; Emoji_Presentation   #  6.0  [4] (📹..📼)    video camera..videocassette
+1F4FF         ; Emoji_Presentation   #  8.0  [1] (📿)       prayer beads
+1F500..1F53D  ; Emoji_Presentation   #  6.0 [62] (🔀..🔽)    shuffle tracks button..down button
+1F54B..1F54E  ; Emoji_Presentation   #  8.0  [4] (🕋..🕎)    kaaba..menorah
+1F550..1F567  ; Emoji_Presentation   #  6.0 [24] (🕐..🕧)    one o’clock..twelve-thirty
+1F57A         ; Emoji_Presentation   #  9.0  [1] (🕺)       man dancing=
+1F5A4         ; Emoji_Presentation   #  9.0  [1] (🖤)       black heart
+1F5FB..1F5FF  ; Emoji_Presentation   #  6.0  [5] (🗻..🗿)    mount fuji..moai
+1F645..1F64F  ; Emoji_Presentation   #  6.0 [11] (🙅..🙏)    person gesturing NO..folded hands
+1F680..1F6C5  ; Emoji_Presentation   #  6.0 [70] (🚀..🛅)    rocket..left luggage
+1F6CC         ; Emoji_Presentation   #  7.0  [1] (🛌)       person in bed
+1F6D0         ; Emoji_Presentation   #  8.0  [1] (🛐)       place of worship
+1F6D1..1F6D2  ; Emoji_Presentation   #  9.0  [2] (🛑..🛒)    stop sign..shopping cart
+1F6EB..1F6EC  ; Emoji_Presentation   #  7.0  [2] (🛫..🛬)    airplane departure..airplane arrival
+1F6F4..1F6F6  ; Emoji_Presentation   #  9.0  [3] (🛴..🛶)    kick scooter..canoe
+1F6F7..1F6F8  ; Emoji_Presentation   # 10.0  [2] (🛷..🛸)    sled..flying saucer=
+1F933..1F93A  ; Emoji_Presentation   #  9.0  [8] (🤳..🤺)    selfie..person fencing
+1F93C..1F93E  ; Emoji_Presentation   #  9.0  [3] (🤼..🤾)    people wrestling..person playing handball
+1F940..1F945  ; Emoji_Presentation   #  9.0  [6] (🥀..🥅)    wilted flower..goal net
+1F947..1F94B  ; Emoji_Presentation   #  9.0  [5] (🥇..🥋)    1st place medal..martial arts uniform
+1F94C         ; Emoji_Presentation   # 10.0  [1] (🥌)       curling stone
+1F950..1F95E  ; Emoji_Presentation   #  9.0 [15] (🥐..🥞)    croissant..pancakes
+1F95F..1F96B  ; Emoji_Presentation   # 10.0 [13] (🥟..🥫)    dumpling..canned food
+1F980..1F984  ; Emoji_Presentation   #  8.0  [5] (🦀..🦄)    crab..unicorn face
+1F985..1F991  ; Emoji_Presentation   #  9.0 [13] (🦅..🦑)    eagle..squid
+1F992..1F997  ; Emoji_Presentation   # 10.0  [6] (🦒..🦗)    giraffe..cricket
+1F9C0         ; Emoji_Presentation   #  8.0  [1] (🧀)       cheese wedge
+1F9D0..1F9E6  ; Emoji_Presentation   # 10.0 [23] (🧐..🧦)    face with monocle..socks
+
+# Total elements: 966
+
+# Total elements: 5
+
+# ================================================
+
+# All omitted code points have Emoji_Modifier_Base=No 
+# @missing: 0000..10FFFF  ; Emoji_Modifier_Base ; No
+
+26F9          ; Emoji_Modifier_Base  #  5.2  [1] (⛹️)       person bouncing ball
+1F385         ; Emoji_Modifier_Base  #  6.0  [1] (🎅)       Santa Claus
+1F3C2..1F3C4  ; Emoji_Modifier_Base  #  6.0  [3] (🏂..🏄)    snowboarder..person surfing
+1F3C7         ; Emoji_Modifier_Base  #  6.0  [1] (🏇)       horse racing
+1F3CA         ; Emoji_Modifier_Base  #  6.0  [1] (🏊)       person swimming
+1F3CB..1F3CC  ; Emoji_Modifier_Base  #  7.0  [2] (🏋️..🏌️)    person lifting weights..person golfing
+1F466..1F469  ; Emoji_Modifier_Base  #  6.0  [4] (👦..👩)    boy..woman
+1F46E         ; Emoji_Modifier_Base  #  6.0  [1] (👮)       police officer
+1F470..1F478  ; Emoji_Modifier_Base  #  6.0  [9] (👰..👸)    bride with veil..princess
+1F47C         ; Emoji_Modifier_Base  #  6.0  [1] (👼)       baby angel
+1F481..1F483  ; Emoji_Modifier_Base  #  6.0  [3] (💁..💃)    person tipping hand..woman dancing
+1F485..1F487  ; Emoji_Modifier_Base  #  6.0  [3] (💅..💇)    nail polish..person getting haircut
+1F4AA         ; Emoji_Modifier_Base  #  6.0  [1] (💪)       flexed biceps
+1F574..1F575  ; Emoji_Modifier_Base  #  7.0  [2] (🕴️..🕵️)    man in suit levitating..detective
+1F57A         ; Emoji_Modifier_Base  #  9.0  [1] (🕺)       man dancing
+1F6A3         ; Emoji_Modifier_Base  #  6.0  [1] (🚣)       person rowing boat
+1F6B4..1F6B6  ; Emoji_Modifier_Base  #  6.0  [3] (🚴..🚶)    person biking..person walking
+1F6C0         ; Emoji_Modifier_Base  #  6.0  [1] (🛀)       person taking bath
+1F6CC         ; Emoji_Modifier_Base  #  7.0  [1] (🛌)       person in bed
+1F926         ; Emoji_Modifier_Base  #  9.0  [1] (🤦)       person facepalming
+1F930         ; Emoji_Modifier_Base  #  9.0  [1] (🤰)       pregnant woman
+1F931..1F932  ; Emoji_Modifier_Base  # 10.0  [2] (🤱..🤲)    breast-feeding..palms up together
+1F933..1F939  ; Emoji_Modifier_Base  #  9.0  [7] (🤳..🤹)    selfie..person juggling
+1F93D..1F93E  ; Emoji_Modifier_Base  #  9.0  [2] (🤽..🤾)    person playing water polo..person playing handball
+1F9D1..1F9DD  ; Emoji_Modifier_Base  # 10.0 [13] (🧑..🧝)    adult..elf
