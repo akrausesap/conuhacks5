@@ -1,0 +1,41 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+    name: conuhacks-ui
+    labels:
+        app: conuhacks-ui
+        version: '1'
+spec:
+    replicas: 1
+    selector:
+        matchLabels:
+            app: conuhacks-ui
+            version: '1'
+    template:
+        metadata:
+            labels: 
+                app: conuhacks-ui
+                version: '1'
+        spec:
+            containers: 
+                - name: conuhacks-ui 
+                  image: andy008/conu-react:0.0.2 
+                  imagePullPolicy: Always
+                  resources:
+                      requests:
+                         cpu: "0.25"
+                         memory: "128Mi"
+                      limits:
+                         cpu: "0.5"
+                         memory: "256Mi"
+                  ports: 
+                    - name: http-traffic 
+                      containerPort: 80 
+                      protocol: TCP
+                  volumeMounts:
+                    - name: nginx
+                      mountPath: /etc/nginx/conf.d
+            volumes:
+                - name: nginx
+                  configMap:
+                      name: nginx
