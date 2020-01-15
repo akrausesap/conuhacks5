@@ -20,6 +20,7 @@ spec:
             containers: 
                 - name: conuhacks-api 
                   image: andy008/conu-php:0.0.1 
+                  imagePullPolicy: Always
                   ports: 
                     - name: http-traffic 
                       containerPort: 80 
