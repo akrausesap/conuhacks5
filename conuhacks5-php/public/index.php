@@ -12,7 +12,7 @@ use Psr\Http\Message\ServerRequestInterface as Request;
 $app = new \Slim\App;
 
 /**
- * POST /emojify
+ * POST /api/emojify
  * 
  * @param body A list of names.
  * 
@@ -35,7 +35,7 @@ $app = new \Slim\App;
  *  ...
  * ]
  */
-$app->post('/emojify', function (Request $request, Response $response) {
+$app->post('/api/emojify', function (Request $request, Response $response) {
     $emojis = require __DIR__ . '/../emojis.php';
     $names = $request->getParsedBody();
 

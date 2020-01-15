@@ -15,7 +15,7 @@ def default():
 	return "Hello ConUHacks V!"
 
 """
-	POST /emojify
+	POST /api/emojify
 	
 	Parameters:
 		body A list of names.
@@ -40,7 +40,7 @@ def default():
 		]
 		
 """
-@app.route('/emojify', methods=["POST"])
+@app.route('/api/emojify', methods=["POST"])
 def emojify():
 	file = open("../emojis.json","r")
 	values = json.loads(file.read())
