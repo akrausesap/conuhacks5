@@ -9,7 +9,7 @@ const App = () => {
 
   const onSubmit = async (names) => {
     try {
-      const res = await axios.post('http://backend/emojify', names);
+      const res = await axios.post('/api/emojify', names);
 
       setPeople(res.data);
     } catch (err) {
