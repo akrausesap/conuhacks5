@@ -32,8 +32,9 @@ This sample is installed in multiple steps:
 3. Understand/inspect the [react frontend](conuhacks5-react) layer
 4. Create a Docker Image of your react frontend and publish it to docker hub
 5. Deploy your Application to [Kyma/Kubernetes](kyma)
-6. Have a look at additional resources
-7. Enjoy Hacking :smile:
+6. (Optional) Connect to a [Chatbot](conuhacks5-chatbot) 
+7. (Optional) Have a look at [additional resources](additional-resources)
+8. Enjoy Hacking :smile:
 
 ## License
 Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved. 
