@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
 /**
- * POST /emojify
+ * POST /api/emojify
  * 
  * @param body A list of names.
  * 
@@ -39,7 +39,7 @@ app.use(bodyParser.json())
  *  ...
  * ]
  */
-app.post('/emojify', (req, res) => {
+app.post('/api/emojify', (req, res) => {
   const payload = req.body.map((name) => {
     return {
       name,

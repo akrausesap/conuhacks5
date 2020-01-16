@@ -14,14 +14,14 @@ server {
     try_files $uri $uri/ /index.html =404;
   }
 
-  location /API {
-    proxy_pass http://conuhacks-api/API;
+  location /api {
+    proxy_pass http://conuhacks-api/api;
   }
 
 }
 ```
 
-This sets up an http server listening on port 80. It exposes resources from directory `/usr/share/nginx/html` under the root and redirects any call to `/API` to our backend API which is hosted under the service conuhacks-api. To verify this, try calling `kubectl get svc conuhacks-api` if this does not return a result, return to the section on deploying the Backend API.
+This sets up an http server listening on port 80. It exposes resources from directory `/usr/share/nginx/html` under the root and redirects any call to `/api` to our backend API which is hosted under the service conuhacks-api. To verify this, try calling `kubectl get svc conuhacks-api` if this does not return a result, return to the section on deploying the Backend API.
 
 For further details refer to the [nginx product documentation](http://nginx.org/en/docs/)
 
