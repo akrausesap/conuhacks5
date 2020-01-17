@@ -21,17 +21,9 @@ To analyze this further the following commands are helpful:
 * Print the directory where the kubeconfig file should be located: `echo $KUBECONFIG`
 * Read the file: `cat $KUBECONFIG`
 
-## Create a Namespace
+## Use your Namespace
 
-To separate workspaces for teams we will use Kubernetes [Namespaces](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/). Each team can get one or many namespaces. They can be created via the cli or the ui. 
-
-The namespace value (i.e. the prefix) is assigned to you by the SAP Organization team.
-
-In the UI navigate to your cluster and select the `Add new Namespace` Button.
-
-![kubeconfig not set](assets/create-namespace-ui.png)
-
-ALternatively you can also use the cli with the following command: `kubectl create namespace <your-team-value>` (replace `<your-team-value>` with the value given to you).
+To separate workspaces for teams we will use Kubernetes [Namespaces](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/). Each team can gets one namespace. The namespace will be provided to you with the rest of the credentials.
 
 Issue the following command to default all actions via the cli to your teams namespace: `kubectl config set-context --current --namespace=<insert-namespace-name-here>`. This needs to be repeated whenever you download a new KUBECONFIG file.
 
