@@ -1,5 +1,5 @@
 # using python base image
-FROM python
+FROM python:alpine
 
 COPY ./requirements.txt /conuhacks5-python/requirements.txt
 
