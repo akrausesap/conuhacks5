@@ -31,19 +31,33 @@ app.use(bodyParser.json())
  *  {
  *     name: string,
  *     emoji: string,
+ *	   details:{
+ *				category: string,
+ *				char: string,
+ *				codes: string
+ *				name: string,
+ *			   }
  *  },
  *  {
  *     name: string,
  *     emoji: string,
+ *	   details:{
+ *				category: string,
+ *				char: string,
+ *				codes: string
+ *				name: string,
+ *			   }
  *  },
  *  ...
  * ]
  */
 app.post('/api/emojify', (req, res) => {
   const payload = req.body.map((name) => {
-    return {
+    random_emoji = emojis[Math.floor(Math.random() * emojis.length)]
+	return {
       name,
-      emoji: emojis[Math.floor(Math.random() * emojis.length)]
+      emoji:random_emoji.codes,
+	  details: random_emoji
     }
   })
 

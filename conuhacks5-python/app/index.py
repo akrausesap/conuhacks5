@@ -31,10 +31,24 @@ def default():
 			{
 			  name: string,
 			  emoji: string,
+			  details:{
+				category: string,
+				char: string,
+				codes: string
+				name: string,
+				
+			  }
 			},
 			{
 			  name: string,
 			  emoji: string,
+			  details:{
+				category: string,
+				char: string,
+				codes: string
+				name: string,
+				
+			  }
 			},
 			...
 		]
@@ -42,7 +56,7 @@ def default():
 """
 @app.route('/api/emojify', methods=["POST"])
 def emojify():
-	file = open("../emojis.json","r")
+	file = open("../emojis.json",encoding="utf8")
 	values = json.loads(file.read())
 	input = request.get_json()
 	list=[]
@@ -50,7 +64,8 @@ def emojify():
 		ans = {}
 		emoji = getHexa(values)
 		ans['name']= p
-		ans['emoji']= emoji
+		ans['emoji']= emoji["codes"]
+		ans['details']=emoji
 		list.append(ans)
 	return jsonify(list)
 """

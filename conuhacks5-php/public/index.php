@@ -17,20 +17,26 @@ $app = new \Slim\App;
  * @param body A list of names.
  * 
  * Example:
- * [string, string, ...]
- * 
- * @return payload An array of objects mapping the name to 
- * an emoji unicode.
- * 
- * Example:
  * [
  *  {
  *     name: string,
  *     emoji: string,
+ *	   details:{
+ *				category: string,
+ *				char: string,
+ *				codes: string
+ *				name: string,
+ *			   }
  *  },
  *  {
  *     name: string,
  *     emoji: string,
+ *	   details:{
+ *				category: string,
+ *				char: string,
+ *				codes: string
+ *				name: string,
+ *			   }
  *  },
  *  ...
  * ]
@@ -40,9 +46,11 @@ $app->post('/api/emojify', function (Request $request, Response $response) {
     $names = $request->getParsedBody();
 
     $payload = array_map(function ($name) use ($emojis) {
+		$randomEmoji = $emojis[array_rand($emojis)];
         return [
             'name' => $name,
-            'emoji' => $emojis[array_rand($emojis)]
+            'emoji' => $randomEmoji->get('codes'),
+			'details'=> $randomEmoji
         ];
     }, $names);
 
