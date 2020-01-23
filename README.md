@@ -11,7 +11,7 @@ To leverage these samples we have tried to minimize the software installation re
    1. Mac: https://my.vmware.com/web/vmware/details?downloadGroup=FUS-1151-OSS&productId=798 
    2. Windows: https://my.vmware.com/en/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/15_0|PLAYER-1551|open_source
    
-This will enable you to import and work with the provided VM image that can be found here: https://sap-my.sharepoint.com/:u:/p/and_krause/ETYA5D2nJIxLvwvAGvnwlqQBGbWrMNF-ePym4TY4UA3vCw?e=pN2TmI 
+This will enable you to import and work with the provided VM image that can be found here: https://sap-my.sharepoint.com/:u:/p/and_krause/ETYA5D2nJIxLvwvAGvnwlqQBGbWrMNF-ePym4TY4UA3vCw?e=MArq5s
 
 The username/password combination for the Linux OS installed is (`hacker/sap`)
 
