@@ -4,7 +4,17 @@
 
 Kubernetes comes with a powerful api, which is often accessed via the [kubectl cli](https://kubernetes.io/docs/reference/kubectl/kubectl/). Kubectl is already installed on your virtual machines, so no need to do anything here. 
 
-In order to access your Kubernetes environment, kubectl requires configuration often referred to as kubeconfig. Your Kyma Cluster comes with its own kubeconfig that you can download from the Kyma UI. A detailed description of how to do this is provided [here](https://kyma-project.io/docs/#tutorials-sample-service-deployment-on-a-cluster-get-the-kubeconfig-file-and-configure-the-cli).
+In order to access your Kubernetes environment, kubectl requires configuration often referred to as kubeconfig. Your Kyma Cluster comes with its own kubeconfig that you can download from the Kyma UI. To do so, first go to `Settings`:
+
+![download kubeconfig](assets/download-kubeconfig-1.png)
+
+
+Then click on the `Download config` button:
+
+![download kubeconfig](assets/download-kubeconfig-2.png)
+
+
+A detailed description of how to do this is provided [here](https://kyma-project.io/docs/#tutorials-sample-service-deployment-on-a-cluster-get-the-kubeconfig-file-and-configure-the-cli).
 
 ### Troubleshooting
 
