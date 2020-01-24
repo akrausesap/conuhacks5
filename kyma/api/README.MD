@@ -1,25 +1,5 @@
 # Deploy API Backend to Kyma
 
-## Build and Push Docker Images
-
-Each backend and frontend includes a dedicated `Dockerfile` specifying a sequence of steps required to build and package the application into a Docker image. To read about Dockerfile instructions used in this workshop, see [additional resources](../../additional-resources/DOCKER.md).
-
-To build the Docker image and store it locally, issue the following command, substituting each value with you own:
-```
-docker build -t DOCKER_ID/IMG_NAME:TAG DOCKERFILE_PATH
-```
-
-Once the image is built, push it to Docker Hub using the same image name and tag:
-```
-docker push DOCKER_ID/IMG_NAME:TAG
-```
-
-For example:
-```
-docker build -t andy008/conu-php:0.0.1 .
-docker push andy008/conu-php:0.0.1
-```
-
 ## Create the Kubernetes Deployment 
 
 After pushing the container image to [Docker Hub](https://hub.docker.com/), it is time to deploy it to the cloud / kubernetes. To do so we will leverage the Kubernetes [Deployment](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/) API. A template is already provided as [deployment.yaml](deployment.yaml). It has all the basic constructs in place to deploy the PHP and Python Sample Application. In order to deploy your application, all you need to do is change the docker image referenced from `image: andy008/conu-php:0.0.1` to your own and then issue the command:

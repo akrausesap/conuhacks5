@@ -13,11 +13,11 @@ To leverage these samples we have tried to minimize the software installation re
    
 This will enable you to import and work with the provided VM image that can be found here: https://sap-my.sharepoint.com/:u:/p/and_krause/ETYA5D2nJIxLvwvAGvnwlqQBGbWrMNF-ePym4TY4UA3vCw?e=MArq5s
 
-The username/password combination for the Linux OS installed is (`hacker/sap`)
+The username/password combination for the Linux OS installed is (`hacker/sap`). This VM is going to be your local work environment. You should not need to install software on your local laptop.
 
 Kubernetes uses Docker Containers as a foundation. To make them available in cloud environments, you need an internet facing Container Registry. Docker Hub is such a registry. Create a free account on https://hub.docker.com/ to finish off the list of prerequisites.
 
-Then, login with your account using the command `docker login --username UNAME --password PWD`
+
 
 ## Download and Installation
 This sample project - you need to download it and use the sample code and images. Then follow the step by step instructions in this project in order to setup and run the sample application.
@@ -30,13 +30,12 @@ This sample is installed in multiple steps:
     1. [PHP](conuhacks5-php/)
     2. [Python](conuhacks5-python)
     3. [node.js](conuhacks5-node)
-2. Create a Docker Image of your sample application and publish it to docker hub
-3. Understand/inspect the [react frontend](conuhacks5-react) layer
-4. Create a Docker Image of your react frontend and publish it to docker hub
-5. Deploy your Application to [Kyma/Kubernetes](kyma)
-6. (Optional) Connect to a [Chatbot](conuhacks5-chatbot) 
-7. (Optional) Have a look at [additional resources](additional-resources)
-8. Enjoy Hacking :smile:
+2. Understand/inspect the [react frontend](conuhacks5-react) layer
+3. [Create and publish a Docker Image](docker) of your react frontend and the sample application
+4. Deploy your Application to [Kyma/Kubernetes](kyma)
+5. (Optional) Connect to a [Chatbot](conuhacks5-chatbot) 
+6. (Optional) Have a look at [additional resources](additional-resources)
+7. Enjoy Hacking :smile:
 
 ## License
 Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved. 
